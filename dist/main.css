@@ -623,8 +623,8 @@ button {
 
 .popup-active .popup-body {
     -webkit-transform: translateY(0) scale(1);
-    /*-ms-transform: translateY(0) scale(100%);*/
-    /*transform: translateY(0) scale(100%)*/
+    -ms-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1)
 }
 
 .popup-container {
