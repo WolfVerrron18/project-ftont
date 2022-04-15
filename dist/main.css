@@ -622,9 +622,9 @@ button {
 }
 
 .popup-active .popup-body {
-    -webkit-transform: translateY(0) scale(100%);
-    -ms-transform: translateY(0) scale(100%);
-    transform: translateY(0) scale(100%)
+    /*-webkit-transform: translateY(0) scale(100%);*/
+    /*-ms-transform: translateY(0) scale(100%);*/
+    /*transform: translateY(0) scale(100%)*/
 }
 
 .popup-container {
@@ -636,12 +636,12 @@ button {
 }
 
 .popup-body {
-    -webkit-transform: translateY(-50%) scale(0);
-    -ms-transform: translateY(-50%) scale(0);
-    transform: translateY(-50%) scale(0);
-    -webkit-transition: .2s ease-in-out all;
-    -o-transition: .2s ease-in-out all;
-    transition: .2s ease-in-out all;
+    /*-webkit-transform: translateY(-50%) scale(0);*/
+    /*-ms-transform: translateY(-50%) scale(0);*/
+    /*transform: translateY(-50%) scale(0);*/
+    /*-webkit-transition: .2s ease-in-out all;*/
+    /*-o-transition: .2s ease-in-out all;*/
+    /*transition: .2s ease-in-out all;*/
     margin: auto;
     width: 712px;
     height: 680px;
