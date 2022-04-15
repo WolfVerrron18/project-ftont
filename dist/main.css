@@ -634,7 +634,9 @@ button {
     width: 100%;
     height: 100%
 }
-
+.body-no-scroll{
+    overflow: hidden;
+}
 .popup-body {
     /*-webkit-transform: translateY(-50%) scale(0);*/
     /*-ms-transform: translateY(-50%) scale(0);*/
@@ -2170,7 +2172,7 @@ button {
     }
 
     .masterpiece-wrapper-subtitles {
-        max-height: 256px;
+        max-height: 268px;
         overflow: hidden
     }
 
@@ -2183,8 +2185,10 @@ button {
         width: 299px;
         z-index: 2;
         bottom: 103px !important;
-        left: 34%
+        top: -260px;
+        left: 190px;
     }
+
 
     .btns {
         display: -webkit-box;
@@ -2194,6 +2198,14 @@ button {
 
     .popup-body__content-button span {
         padding: 10px 109.5px
+    }
+    .mars-img {
+        top: -190px;
+        left: -110px;
+
+    }
+    .title-AK img {
+       display: none;
     }
 }
 
@@ -2376,8 +2388,13 @@ button {
     }
 
     .mars-img {
-        top: -190px;
-        left: -250px
+        /*top: -190px;*/
+        /* left: 3px; */
+        /* left: calc(100% - 400px); */
+        width: calc(100% - 0.5px);
+        /* top: calc(100% - 100px); */
+        top: -130px;
+        left: 0;
     }
 
     .mars-wrapper-pictures__workers {
