@@ -2121,7 +2121,9 @@ button {
         border-radius: 0;
         text-align: left
     }
-
+    .popup {
+        background: none;
+    }
     .popup-body__content {
         padding: 16px 12px 20px 12px;
         height: 95%;
