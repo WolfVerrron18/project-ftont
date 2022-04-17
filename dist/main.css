@@ -672,7 +672,7 @@ button {
 .popup-body__content {
     padding: 40px 41px 48px 41px;
     position: relative;
-    height: 95%;
+    height: 100%;
 }
 
 .popup-body__content::before {
@@ -2123,7 +2123,8 @@ button {
     }
 
     .popup-body__content {
-        padding: 16px 12px 20px 12px
+        padding: 16px 12px 20px 12px;
+        height: 95%;
     }
 
     .popup-body__content-title {
